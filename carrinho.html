@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+
+<body>
+    <header>
+        <h1>Carrinho de Compras</h1>
+    </header>
+
+    <div id="carrinho">
+        <h2>Informações do Cliente</h2>
+        <form id="form-cliente">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br><br>
+            <label for="endereco">Endereço:</label>
+            <textarea id="endereco" name="endereco" rows="4" required></textarea><br><br>
+        </form>
+        <h2>Itens no Carrinho</h2>
+        <ul id="lista-carrinho">
+            <!-- Itens do carrinho serão exibidos aqui -->
+        </ul>
+        <p id="total-carrinho">Total: R$ 0.00</p>
+        <button onclick="limparCarrinho()">Limpar Carrinho</button>
+        <button onclick="enviarPedidoParaWhatsApp()">Enviar Pedido via WhatsApp</button>
+    </div>
+
+    <script src="carrinho.js" defer></script>
+</body>
+
+</html>
