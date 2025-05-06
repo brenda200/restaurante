@@ -2,7 +2,7 @@
 
 Um menu digital moderno para restaurante, desenvolvido com HTML, CSS e JavaScript. Ideal para apresentar pratos, preços e categorias de forma responsiva e atrativa — perfeito para uso em tablets, celulares ou exibição em sites de restaurantes.
 
-🔗 [Acesse o menu online](https://brenda200.github.io/testes/) *(atualize este link com o real, se for diferente)*
+🔗 [Acesse o menu online] https://brenda200.github.io/restaurante/ *(atualize este link com o real, se for diferente)*
 
 ## ✨ Funcionalidades
 
